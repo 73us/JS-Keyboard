@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkgray;
+}
+.container {
+  margin: 5% auto 0;
+  width: 780px;
+}
+.input {
+  height: 150px;
+  width: 780px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
+  resize: none;
+}
+.keyboard {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 780px;
+}
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin-top: 5px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
+.push-btn {
+  color: white;
+  background-color: rgb(87, 90, 92);
+}
+.key-backspace,
+.key-tab {
+  width: 75px;
+}
+.key-capsLock,
+.key-enter {
+  width: 80px;
+}
+.key-capsLock {
+  position: relative;
+}
+span {
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  opacity: 0;
+  border-radius: 50%;
+}
+.capsOn {
+  opacity: 1;
+}
+.key-leftShift,
+.key-rightShift {
+  width: 100px;
+}
+.key-space {
+  width: 780px;
+}
